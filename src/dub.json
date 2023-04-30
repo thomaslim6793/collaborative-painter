@@ -1,0 +1,37 @@
+{
+	"authors": [
+		"Shibin Cai"
+	],
+	"copyright": "Copyright © 2023, Shibin Cai",
+	"dependencies": {
+		"unit-threaded": "~>2.1.2",
+		"gtk-d": "~>3.10.0"
+	},
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "final_project",
+	"buildType": "debug",
+	"configurations": [
+		{
+			"name": "executable",
+			"targetType": "executable"
+		},
+		{
+			"dependencies": {
+				"unit-threaded": "~>2.1.2",
+				"gtk-d": "~>3.10.0"
+			},
+			"excludedSourceFiles": [
+				"source/app.d"
+			],
+			"mainSourceFile": "bin/ut.d",
+			"name": "unittest",
+			"sourcePaths": [
+				"source"
+			]
+		}
+	],
+	"buildSettings": {
+        "dflags": ["-wi"]
+    }
+}
