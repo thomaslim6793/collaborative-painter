@@ -8,7 +8,7 @@ And it was built using the Gtk and Cairo API.
 
 
 
-To run, in your terminal run the following:
+To run, in your terminal, first go to the ./src directory and run the following:
 
 1. Optional: If you are using MacOS, run the following first: 
 ~~~
