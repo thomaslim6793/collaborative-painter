@@ -8,14 +8,20 @@ And it was built using the Gtk and Cairo API.
 
 
 
-1. To run this program, in your terminal run the following:
-    ( If you are using MacOS, run the following first:
-     1) export MACOSX_DEPLOYMENT_TARGET=13
-     2) export DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib
-    )
-    1) dub run
-    2) In the prompt "Enter Server Address: ", enter the name of the server you wish to join. 
-       In the following promtp "Enter server port: ", enter the port id of the process of the server executable.
-    *** If you wish to run this program without joining a server, simply type in "without server" in the prompt.
+To run, in your terminal run the following:
+
+1. Optional: If you are using MacOS, run the following first: 
+~~~
+export MACOSX_DEPLOYMENT_TARGET=13
+export DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib
+~~~
+2.  Then
+~~~
+dub run
+~~~
+
+3. In the prompt "Enter Server Address: ", enter the name of the server you wish to join. <br>
+    -   In the following promtp "Enter server port: ", enter the port id of the process of the server executable.
+    -   If you wish to run this program without joining a server, simply type in **"without server"** in the prompt.
 
 * Collaborators: Shibin Cai, Jay Gombar, Hui Juan.
