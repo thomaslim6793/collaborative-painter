@@ -1,7 +1,7 @@
 1. To run, in your terminal run the following:
-    [ If you are using MacOS, run the following first:
+     If you are using MacOS, run the following first:
      1) export MACOSX_DEPLOYMENT_TARGET=13
-     2) export DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib]
+     2) export DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib
 
     1) dub run
     2) In the prompt "Enter Server Address: ", enter the name of the server you wish to join. 
